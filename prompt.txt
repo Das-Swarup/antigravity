@@ -1,0 +1,123 @@
+Antigravity prompt
+
+Portfolio
+
+Create a clean, modern, professional personal portfolio website for a college student.
+
+Design style: [Minimal / Professional / Creative] Tech stack: Nextjs
+Keep it fully responsive for mobile and desktop.
+Use clean spacing, simple typography, and soft card layouts.
+Include subtle animations
+
+Website Sections:
+
+1. HERO SECTION
+Full Name: [Your Full Name]
+Current Status: [e.g., B.Tech CSE Student | Final Year | MCA Student]
+Career Goal / Role: [e.g., Aspiring Software Developer | Data Analyst | UI/UX Designer]
+
+Short Tagline (1 sentence about you):
+[Example: Passionate about building scalable web applications and solving real-world problems.]
+
+Add two buttons:
+- View My Projects
+- Contact Me
+
+----------------------------------------------------
+
+2. ABOUT ME SECTION
+
+Write a 4–5 line professional summary about:
+- Your degree and college name
+- Your main technical interests
+- What you are currently learning
+- Your career objective
+
+[Paste your paragraph here]
+
+----------------------------------------------------
+
+3. SKILLS SECTION
+
+Display skills in clean cards or badges grouped as:
+
+Technical Skills:
+[List programming languages]
+
+Frameworks / Technologies:
+[List frameworks or domains]
+
+Tools:
+[List tools like Git, VS Code, Firebase, etc.]
+
+----------------------------------------------------
+
+4. PROJECTS SECTION
+
+Create 3 project cards with the following structure:
+
+Project 1:
+- Project Name:
+- Short Description (2–3 lines explaining what it does):
+- Technologies Used:
+- GitHub Link:
+- Live Link (if available):
+
+Project 2:
+- Project Name:
+- Description:
+- Technologies Used:
+- GitHub Link:
+- Live Link:
+
+Project 3:
+- Project Name:
+- Description:
+- Technologies Used:
+- GitHub Link:
+- Live Link:
+
+Ensure project cards are aligned and clean.
+
+----------------------------------------------------
+
+5. EDUCATION SECTION
+
+- Degree:
+- College Name:
+- University (if applicable):
+- Year of Graduation:
+- CGPA / Percentage (optional):
+
+----------------------------------------------------
+
+6. EXPERIENCE OR INTERNSHIPS (If Any)
+
+- Company Name:
+- Role:
+- Duration:
+- 2–3 Key Contributions:
+
+(If no experience, replace this section with “Certifications”)
+
+----------------------------------------------------
+
+7. CONTACT SECTION
+
+- Email:
+- LinkedIn:
+- GitHub:
+- Phone (optional)
+
+Add a simple contact form with:
+Name
+Email
+Message
+
+Add closing text:
+“Feel free to reach out for collaborations or opportunities.”
+
+----------------------------------------------------
+
+Make the website structured, professional, and suitable for placement season.
+Keep layout clean and consistent across all sections.

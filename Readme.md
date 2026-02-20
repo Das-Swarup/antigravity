@@ -68,19 +68,19 @@ Enable the following APIs:
 
 ### ✅ Cloud Run API
 
-Search → `Cloud Run API` → Click → Enable
+Search → [`Cloud Run API`](https://console.cloud.google.com/marketplace/product/google/run.googleapis.com?q=search&referrer=search&project=upheld-magpie-488012-a3) → Click → Enable
 
 ### ✅ Cloud Build API
 
-Search → `Cloud Build API` → Enable
+Search → [`Cloud Build API`](https://console.cloud.google.com/marketplace/product/google/cloudbuild.googleapis.com?referrer=search&project=upheld-magpie-488012-a3&returnUrl=%2Fcloud-build%2Fbuilds%3Freferrer%3Dsearch%26project%3Dupheld-magpie-488012-a3) → Enable
 
 ### ✅ Artifact Registry API
 
-Search → `Artifact Registry API` → Enable
+Search → [`Artifact Registry API`](https://console.cloud.google.com/marketplace/product/google/artifactregistry.googleapis.com?q=search&referrer=search&project=upheld-magpie-488012-a3) → Enable
 
 ### ✅ Generative Language API (Gemini)
 
-Search → `Generative Language API` → Enable
+Search → [`Gemini API`](https://console.cloud.google.com/marketplace/product/google/generativelanguage.googleapis.com?q=search&referrer=search&project=upheld-magpie-488012-a3) → Enable
 
 ---
 

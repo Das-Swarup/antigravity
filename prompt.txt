@@ -1,6 +1,5 @@
-Antigravity prompt
+Antigravity prompt 1
 
-Portfolio
 
 Create a clean, modern, professional personal portfolio website for a college student.
 
@@ -121,3 +120,8 @@ Add closing text:
 
 Make the website structured, professional, and suitable for placement season.
 Keep layout clean and consistent across all sections.
+
+
+Antigravity prompt 2
+
+Now make the design more fluid and fix paddings for components and margins, define container max width as 1280px and 1440px for larger screens and create the cards with rounded rectangle form and keep it dark themed and include a bit glass morphism wherever possible, the design should feel premium

@@ -125,3 +125,8 @@ Keep layout clean and consistent across all sections.
 Antigravity prompt 2
 
 Now make the design more fluid and fix paddings for components and margins, define container max width as 1280px and 1440px for larger screens and create the cards with rounded rectangle form and keep it dark themed and include a bit glass morphism wherever possible, the design should feel premium
+
+
+Antigravity prompt 3
+
+now deploy this to cloud run in asia-south1 region and in this project - [project_id] and give me back deployed url to preview my site

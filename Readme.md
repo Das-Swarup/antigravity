@@ -1,5 +1,5 @@
-````markdown
-# 🚀 Getting started with Google Antigravity  
+
+# Getting started with Google Antigravity  
 ## Build with Gemini CLI + Antigravity IDE + Cloud Run
 
 Welcome to the hands-on workshop!

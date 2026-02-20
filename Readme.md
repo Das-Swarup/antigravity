@@ -136,27 +136,12 @@ mkdir my-portfolio
 cd my-portfolio
 ```
 
-Start Gemini CLI:
-
-```bash
-gemini
-```
-
-Inside Gemini CLI:
-
-👉 Paste the portfolio prompt provided during the workshop.
-
-Wait until all files are generated.
-
-You should now see project files inside your `my-portfolio` folder.
-
 ---
 
-# STEP 6 – Open Project in Antigravity IDE (Manual Method)
+# STEP 6 – Open Project in Antigravity IDE
 
-⚠️ We are NOT using Antigravity CLI.
 
-1. Open **Google Antigravity IDE** in your browser.
+1. Open **Google Antigravity IDE**.
 
 2. Click **Open Project** or **Open Folder**
 
@@ -168,11 +153,11 @@ You should now see project files inside your `my-portfolio` folder.
 
 4. Wait for Antigravity to load the project.
 
-You should now see:
+5. Open the antigravity agent manager using `Ctrl+E`
 
-* File structure
-* Preview option
-* Deploy button
+6. Select the project folder in agent manager from sidebar
+
+👉 Paste the portfolio prompt provided during the workshop.
 
 ---
 

@@ -24,7 +24,7 @@ Make sure you have:
 - A Laptop/Desktop (Windows / macOS / Linux)
 - Google Chrome Browser
 - Stable Internet
-- Node.js (v18 or above)
+- Node.js (v6 or above)
 
 Check Node installation:
 
@@ -32,7 +32,7 @@ Check Node installation:
 node -v
 ````
 
-If not installed or version is less than 18:
+If not installed:
 [https://nodejs.org](https://nodejs.org)
 
 And follow the steps mentioned as per your OS
@@ -109,36 +109,19 @@ setx GEMINI_API_KEY "PASTE_YOUR_KEY"
 
 Restart your terminal after this.
 
----
 
-# STEP 4 – Install Gemini CLI
-
-Install globally:
-
-```bash
-npm install -g @google/gemini-cli
-```
-
-Verify:
-
-```bash
-gemini --version
-```
-
----
-
-# STEP 5 – Generate Your Portfolio Project
+# STEP 4 – Generate Your Project root folder
 
 Create a new folder:
 
 ```bash
-mkdir my-portfolio
-cd my-portfolio
+mkdir my-projects
+cd my-projects
 ```
 
 ---
 
-# STEP 6 – Open Project in Antigravity IDE
+# STEP 5 – Open Project in Antigravity IDE
 
 
 1. Open **Google Antigravity IDE**.
@@ -148,20 +131,20 @@ cd my-portfolio
 3. Choose:
 
    ```
-   my-portfolio
+   my-projects
    ```
 
-4. Wait for Antigravity to load the project.
+4. Wait for Antigravity to load the project folder.
 
 5. Open the antigravity agent manager using `Ctrl+E`
 
 6. Select the project folder in agent manager from sidebar
 
-👉 Paste the portfolio prompt provided during the workshop.
+👉 Paste your choice of prompt from the set of prompts from the prompt.md file.
 
 ---
 
-# STEP 7 – Preview Your Project
+# STEP 6 – Preview Your Project
 
 Inside Antigravity:
 
@@ -173,20 +156,20 @@ If something is broken, fix it before deploying.
 
 ---
 
-# STEP 8 – Deploy to Cloud Run from Antigravity
+# STEP 7 – Deploy to Cloud Run from Antigravity
 
 Inside Antigravity:
 
-1. Click **Deploy**
-2. Select:
+1. Go to **Editor** or press `Ctrl+E` from agent manager.
+2. Now open the agent sidebar using `Ctrl+L`. This should open a sidebar to the right side.
+3. Now from the top right there will be **3 dots**, click on that and select **MCP Servers** from dropdown.
+4. Search for `Cloud Run` in the search textbox on the MCP Store. Hover on the Cloud Run MCP server, and click on the Install button that appears to the right.
+5. Once installed, click on the Back to Agent button at the top of the Agent Manager panel.
+6. On the Agent Manager panel, we will now prompt to deploy this folder as Cloud Run service on the Google Cloud project as follows:
 
    ```
-   Cloud Run
+   Deploy this folder as Cloud Run service in the project <yout-project-id> in asia-south1 region.
    ```
-3. Choose your Google Cloud Project
-4. Select region (Recommended: `asia-south1`)
-5. Allow unauthenticated access
-6. Click **Deploy**
 
 Wait 2–5 minutes.
 
@@ -196,17 +179,17 @@ You will receive a URL like:
 https://your-project-name-xxxxx.run.app
 ```
 
-🎉 This is your live portfolio website!
+🎉 This is your live project!
 
 ---
 
-# STEP 9 – Test Your Live Website
+# STEP 8 – Test Your Live Website
 
 Open your deployed URL and verify:
 
 * Mobile responsiveness
-* Project links
-* Contact section
+* Usability
+* Scope for improvements
 * Clean layout
 
 Share your URL with classmates 
@@ -218,11 +201,10 @@ Share your URL with classmates
 1. Create Cloud Project (UI)
 2. Enable APIs (UI)
 3. Generate Gemini API Key
-4. Install Gemini CLI
-5. Generate Portfolio Code
-6. Open Folder in Antigravity IDE
-7. Deploy to Cloud Run
-8. Get Live URL
+4. Generate Portfolio Code
+5. Open Folder in Antigravity IDE
+6. Deploy to Cloud Run
+7. Get Live URL
 
 ---
 
@@ -230,7 +212,7 @@ Share your URL with classmates
 
 By the end of this workshop, you will have:
 
-* ✅ A professional portfolio website
+* ✅ A project to showcase in your resume
 * ✅ Hosted on Google Cloud Run
 * ✅ A public live URL
 * ✅ Real cloud deployment experience

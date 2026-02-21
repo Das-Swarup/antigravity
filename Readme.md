@@ -6,7 +6,7 @@ Welcome to the hands-on workshop!
 
 In this session, you will:
 
-- ✅ Create a Google Cloud Project (using UI)
+- ✅ Create a Google Cloud Project
 - ✅ Enable required services
 - ✅ Generate a Gemini API Key
 - ✅ Use Gemini CLI to generate your portfolio
@@ -39,7 +39,7 @@ And follow the steps mentioned as per your OS
 
 ---
 
-# STEP 1 – Create Google Cloud Project (Using UI)
+# STEP 1 – Create Google Cloud Project
 
 1. Open:
    [https://console.cloud.google.com](https://console.cloud.google.com)
@@ -61,6 +61,8 @@ And follow the steps mentioned as per your OS
 
 # STEP 2 – Enable Required APIs (Using UI)
 
+Note: Some APIs might already be enabled and will show **Manage** instead 'Enable'.
+
 Go to:
 [https://console.cloud.google.com/apis/library](https://console.cloud.google.com/apis/library)
 
@@ -72,15 +74,15 @@ Search → [`Cloud Run API`](https://console.cloud.google.com/marketplace/produc
 
 ### ✅ Cloud Build API
 
-Search → [`Cloud Build API`](https://console.cloud.google.com/marketplace/product/google/cloudbuild.googleapis.com?referrer=search&project=upheld-magpie-488012-a3&returnUrl=%2Fcloud-build%2Fbuilds%3Freferrer%3Dsearch%26project%3Dupheld-magpie-488012-a3) → Enable
+Search → [`Cloud Build API`](https://console.cloud.google.com/marketplace/product/google/cloudbuild.googleapis.com?referrer=search&project=upheld-magpie-488012-a3&returnUrl=%2Fcloud-build%2Fbuilds%3Freferrer%3Dsearch%26project%3Dupheld-magpie-488012-a3) → Click → Enable
 
 ### ✅ Artifact Registry API
 
-Search → [`Artifact Registry API`](https://console.cloud.google.com/marketplace/product/google/artifactregistry.googleapis.com?q=search&referrer=search&project=upheld-magpie-488012-a3) → Enable
+Search → [`Artifact Registry API`](https://console.cloud.google.com/marketplace/product/google/artifactregistry.googleapis.com?q=search&referrer=search&project=upheld-magpie-488012-a3) → Click → Enable
 
 ### ✅ Generative Language API (Gemini)
 
-Search → [`Gemini API`](https://console.cloud.google.com/marketplace/product/google/generativelanguage.googleapis.com?q=search&referrer=search&project=upheld-magpie-488012-a3) → Enable
+Search → [`Gemini API`](https://console.cloud.google.com/marketplace/product/google/generativelanguage.googleapis.com?q=search&referrer=search&project=upheld-magpie-488012-a3) → Click → Enable
 
 ---
 
@@ -128,7 +130,7 @@ cd my-projects
 
 1. Open **Google Antigravity IDE**.
 
-2. Click **Open Project** or **Open Folder**
+2. Click **Open Project** or **Open Folder** from **Files**
 
 3. Choose: `my-projects`
 
@@ -147,12 +149,16 @@ cd my-projects
 Inside Antigravity:
 
 * Check the files being created
+  
 * Review and select `Run` when it asks and wait till Antigravity creates all the files
+  
 * Antigravity should run your project by default but if it does not then give command
   ```
   run the project
   ```
+
 * Open `[localhost:3000](localhost:3000) if not opened automatically by Antigravity
+  
 * Verify the project is loaded and usable
 
 If something is broken, we have to fix it before deploying.
@@ -164,11 +170,16 @@ If something is broken, we have to fix it before deploying.
 Inside Antigravity:
 
 1. Go to **Editor** or press `Ctrl+E` from agent manager.
-2. Now open the agent sidebar using `Ctrl+L`. This should open a sidebar to the right side.
-3. Now from the top right there will be **3 dots**, click on that and select **MCP Servers** from dropdown.
-4. Search for `Cloud Run` in the search textbox on the MCP Store. Hover on the Cloud Run MCP server, and click on the Install button that appears to the right.
-5. Once installed, click on the Back to Agent button at the top of the Agent Manager panel.
-6. On the Agent Manager panel, we will now prompt to deploy this folder as Cloud Run service on the Google Cloud project as follows:
+   
+3. Now open the agent sidebar using `Ctrl+L`. This should open a sidebar to the right side.
+   
+5. Now from the top right there will be **3 dots**, click on that and select **MCP Servers** from dropdown.
+   
+7. Search for `Cloud Run` in the search textbox on the MCP Store. Hover on the Cloud Run MCP server, and click on the Install button that appears to the right.
+   
+9. Once installed, click on the Back to Agent button at the top of the Agent Manager panel.
+    
+11. On the Agent Manager panel, we will now prompt to deploy this folder as Cloud Run service on the Google Cloud project as follows:
 
    ```
    Deploy this folder as Cloud Run service in the project <yout-project-id> in asia-south1 region.

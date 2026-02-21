@@ -31,39 +31,7 @@ Once the application is ready, tell me how to:
 
 ---
 
-# Prompt 2 – Neon Reaction Timer
-
-```
-Build a NodeJS-based (Node version compatible from v6 to latest) neon-themed Reaction Timer web app.
-
-Create the project in a new folder named `neon-reaction`.
-
-The UI must:
-- Have a dark immersive background
-- Show a glowing red screen that randomly switches to neon green
-- When the screen turns green, the user must click
-- Display the reaction time in milliseconds with a glowing animation
-- Add a dramatic neon result message
-
-Use Express to serve static HTML, CSS, and JS files.
-
-All backend code must be compatible with Node v6 and above.
-
-Include:
-- Random delay logic
-- Click detection
-- Restart button
-- Smooth glowing transitions
-
-After building the application, explain how to:
-- Install dependencies
-- Start the server
-- Open it in the browser locally
-```
-
----
-
-# Prompt 3 – Neon Memory Card Game
+# Prompt 2 – Neon Memory Card Game
 
 ```
 Build a NodeJS-based (Node version compatible from v6 to latest) neon-themed Memory Card matching web app.
@@ -96,7 +64,7 @@ After completion, explain clearly:
 
 ---
 
-# Prompt 4 – Neon Connect Four
+# Prompt 3 – Neon Connect Four
 
 ```
 Build a NodeJS-based (Node version compatible from v6 to latest) neon-themed Connect Four web app.
@@ -131,7 +99,7 @@ After finishing, provide steps to:
 
 ---
 
-# Prompt 5 - Neon Tic-Tac-Toe
+# Prompt 4 - Neon Tic-Tac-Toe
 
 ```
 Build a NodeJS-based (Node version compatible from v6 to latest) neon-themed Tic-Tac-Toe web app.

@@ -128,19 +128,15 @@ cd my-projects
 
 2. Click **Open Project** or **Open Folder**
 
-3. Choose:
-
-   ```
-   my-projects
-   ```
+3. Choose: `my-projects`
 
 4. Wait for Antigravity to load the project folder.
 
 5. Open the antigravity agent manager using `Ctrl+E`
 
-6. Select the project folder in agent manager from sidebar
+6. Select the project folder in agent manager from left sidebar
 
-👉 Paste your choice of prompt from the set of prompts from the prompt.md file.
+7. Paste your choice of prompt from the set of prompts from the prompt.md file.
 
 ---
 
@@ -148,11 +144,12 @@ cd my-projects
 
 Inside Antigravity:
 
-* Click **Preview**
-* Check layout
-* Verify sections load correctly
+* Check the files being created
+* Review and select `Run` when it asks and wait till Antigravity creates all the files
+* Open `[localhost:3000](localhost:3000)
+* Verify the project is  loaded
 
-If something is broken, fix it before deploying.
+If something is broken, we have to fix it before deploying.
 
 ---
 

@@ -12,7 +12,7 @@ In this session, you will:
 - ✅ Use Gemini CLI to generate your portfolio
 - ✅ Open the project manually in Antigravity IDE
 - ✅ Deploy to Cloud Run from Antigravity
-- ✅ Get a live public URL 🎉
+- ✅ Get a live public URL for your resume 🎉
 
 ---
 
@@ -84,7 +84,7 @@ Search → [`Gemini API`](https://console.cloud.google.com/marketplace/product/g
 
 ---
 
-# STEP 3 – Generate Gemini API Key
+# STEP 3 – Generate Gemini API Key (Optional)
 
 1. Go to:
    [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
@@ -113,6 +113,8 @@ Restart your terminal after this.
 # STEP 4 – Generate Your Project root folder
 
 Create a new folder:
+
+Open Terminal and run-
 
 ```bash
 mkdir my-projects
@@ -146,8 +148,12 @@ Inside Antigravity:
 
 * Check the files being created
 * Review and select `Run` when it asks and wait till Antigravity creates all the files
-* Open `[localhost:3000](localhost:3000)
-* Verify the project is  loaded
+* Antigravity should run your project by default but if it does not then give command
+  ```
+  run the project
+  ```
+* Open `[localhost:3000](localhost:3000) if not opened automatically by Antigravity
+* Verify the project is loaded and usable
 
 If something is broken, we have to fix it before deploying.
 

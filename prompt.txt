@@ -1,132 +1,168 @@
-Antigravity prompt 1
+# Prompt 1 – Neon Snake Game
 
+```
+Build a NodeJS-based (Node version compatible from v6 to latest) neon-themed Snake web app.
 
-Create a clean, modern, professional personal portfolio website for a college student.
+Create the project inside a new folder named `neon-snake`.
 
-Design style: [Minimal / Professional / Creative] Tech stack: Nextjs
-Keep it fully responsive for mobile and desktop.
-Use clean spacing, simple typography, and soft card layouts.
-Include subtle animations
+The UI must have:
+- Dark background
+- Cyan glowing snake
+- Magenta glowing food
+- Subtle grid background
+- Smooth glowing animation using CSS shadows and transitions
 
-Website Sections:
+Program the game logic in NodeJS using Express to serve static files.
 
-1. HERO SECTION
-Full Name: [Your Full Name]
-Current Status: [e.g., B.Tech CSE Student | Final Year | MCA Student]
-Career Goal / Role: [e.g., Aspiring Software Developer | Data Analyst | UI/UX Designer]
+The frontend should:
+- Handle snake movement with arrow keys
+- Detect food collision
+- Grow the snake
+- Detect wall or self collision
+- Show a dramatic neon "Game Over" message at the center
 
-Short Tagline (1 sentence about you):
-[Example: Passionate about building scalable web applications and solving real-world problems.]
+Keep all JavaScript compatible with older Node versions (avoid ES6+ syntax).
 
-Add two buttons:
-- View My Projects
-- Contact Me
+Once the application is ready, tell me how to:
+1. Install dependencies
+2. Run it locally
+3. Access it in the browser
+```
 
-----------------------------------------------------
+---
 
-2. ABOUT ME SECTION
+# Prompt 2 – Neon Reaction Timer
 
-Write a 4–5 line professional summary about:
-- Your degree and college name
-- Your main technical interests
-- What you are currently learning
-- Your career objective
+```
+Build a NodeJS-based (Node version compatible from v6 to latest) neon-themed Reaction Timer web app.
 
-[Paste your paragraph here]
+Create the project in a new folder named `neon-reaction`.
 
-----------------------------------------------------
+The UI must:
+- Have a dark immersive background
+- Show a glowing red screen that randomly switches to neon green
+- When the screen turns green, the user must click
+- Display the reaction time in milliseconds with a glowing animation
+- Add a dramatic neon result message
 
-3. SKILLS SECTION
+Use Express to serve static HTML, CSS, and JS files.
 
-Display skills in clean cards or badges grouped as:
+All backend code must be compatible with Node v6 and above.
 
-Technical Skills:
-[List programming languages]
+Include:
+- Random delay logic
+- Click detection
+- Restart button
+- Smooth glowing transitions
 
-Frameworks / Technologies:
-[List frameworks or domains]
+After building the application, explain how to:
+- Install dependencies
+- Start the server
+- Open it in the browser locally
+```
 
-Tools:
-[List tools like Git, VS Code, Firebase, etc.]
+---
 
-----------------------------------------------------
+# Prompt 3 – Neon Memory Card Game
 
-4. PROJECTS SECTION
+```
+Build a NodeJS-based (Node version compatible from v6 to latest) neon-themed Memory Card matching web app.
 
-Create 3 project cards with the following structure:
+Create the project inside a folder named `neon-memory`.
 
-Project 1:
-- Project Name:
-- Short Description (2–3 lines explaining what it does):
-- Technologies Used:
-- GitHub Link:
-- Live Link (if available):
+The UI must:
+- Have a dark cyber-style background
+- Cards glow cyan when idle
+- Cards glow magenta when flipped
+- Matched cards pulse softly
+- Dramatic neon glow when all cards are matched
 
-Project 2:
-- Project Name:
-- Description:
-- Technologies Used:
-- GitHub Link:
-- Live Link:
+Use Express to serve the static frontend.
 
-Project 3:
-- Project Name:
-- Description:
-- Technologies Used:
-- GitHub Link:
-- Live Link:
+Frontend must handle:
+- Card flipping
+- Match detection
+- Move counter
+- Game completion detection
+- Restart button
 
-Ensure project cards are aligned and clean.
+Keep all code compatible with older Node versions (no modern syntax).
 
-----------------------------------------------------
+After completion, explain clearly:
+1. How to install dependencies
+2. How to run the server
+3. How to test locally before deployment
+```
 
-5. EDUCATION SECTION
+---
 
-- Degree:
-- College Name:
-- University (if applicable):
-- Year of Graduation:
-- CGPA / Percentage (optional):
+# Prompt 4 – Neon Connect Four
 
-----------------------------------------------------
+```
+Build a NodeJS-based (Node version compatible from v6 to latest) neon-themed Connect Four web app.
 
-6. EXPERIENCE OR INTERNSHIPS (If Any)
+Create the project inside a folder named `neon-connect-four`.
 
-- Company Name:
-- Role:
-- Duration:
-- 2–3 Key Contributions:
+UI Requirements:
+- Dark background
+- Vertical glowing board
+- Cyan discs for Player 1
+- Magenta discs for Player 2
+- Disc drop animation
+- Dramatic neon winner announcement
 
-(If no experience, replace this section with “Certifications”)
+Backend:
+- Use Express (Node v6 compatible)
+- Serve static files
 
-----------------------------------------------------
+Frontend Logic:
+- Handle turn switching
+- Detect horizontal, vertical, diagonal wins
+- Detect draw
+- Restart game button
 
-7. CONTACT SECTION
+Avoid modern JavaScript syntax so that it runs on Node v6.
 
-- Email:
-- LinkedIn:
-- GitHub:
-- Phone (optional)
+After finishing, provide steps to:
+- Install dependencies
+- Run locally
+- Access in browser
+```
 
-Add a simple contact form with:
-Name
-Email
-Message
+---
 
-Add closing text:
-“Feel free to reach out for collaborations or opportunities.”
+# Prompt 5 - Neon Tic-Tac-Toe
 
-----------------------------------------------------
+```
+Build a NodeJS-based (Node version compatible from v6 to latest) neon-themed Tic-Tac-Toe web app.
 
-Make the website structured, professional, and suitable for placement season.
-Keep layout clean and consistent across all sections.
+Create the project inside a new folder named `neon-tic-tac-toe`.
 
+The UI must:
+- Have a dark immersive background  
+- Show a glowing 3x3 neon grid  
+- Player X should glow cyan  
+- Player O should glow magenta  
+- Grid cells should glow on hover  
+- Winning cells should glow brighter  
+- Display a dramatic neon “Game Over” message  
+- Include a glowing Restart button  
 
-Antigravity prompt 2
+Use Express to serve static HTML, CSS, and JavaScript files.
 
-Now make the design more fluid and fix paddings for components and margins, define container max width as 1280px and 1440px for larger screens and create the cards with rounded rectangle form and keep it dark themed and include a bit glass morphism wherever possible, the design should feel premium
+Frontend must handle:
+- Turn switching  
+- Win detection (horizontal, vertical, diagonal)  
+- Draw detection  
+- Prevent clicking filled cells  
+- Restart functionality  
 
+Keep all code compatible with older Node versions (no modern syntax).
 
-Antigravity prompt 3
+After building the application, explain how to:
+- Install dependencies  
+- Start the server  
+- Open it in the browser locally  
+```
 
-now deploy this to cloud run in asia-south1 region and in this project - [project_id] and give me back deployed url to preview my site
+---

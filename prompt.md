@@ -11,6 +11,8 @@ The UI must have:
 - Magenta glowing food
 - Subtle grid background
 - Smooth glowing animation using CSS shadows and transitions
+- Game rules mentioned in the left side of the screen
+- A start game option
 
 Program the game logic in NodeJS using Express to serve static files.
 
@@ -44,6 +46,7 @@ The UI must:
 - Cards glow magenta when flipped
 - Matched cards pulse softly
 - Dramatic neon glow when all cards are matched
+- Have game rules mentioned in the left side of the screen
 
 Use Express to serve the static frontend.
 
@@ -78,6 +81,7 @@ UI Requirements:
 - Magenta discs for Player 2
 - Disc drop animation
 - Dramatic neon winner announcement
+- Game rules mentioned in the left side of the screen
 
 Backend:
 - Use Express (Node v6 compatible)

@@ -118,7 +118,8 @@ The UI must:
 - Grid cells should glow on hover  
 - Winning cells should glow brighter  
 - Display a dramatic neon “Game Over” message  
-- Include a glowing Restart button  
+- Include a glowing Restart button
+- Game rules mentioned in the left side of the screen 
 
 Use Express to serve static HTML, CSS, and JavaScript files.
 

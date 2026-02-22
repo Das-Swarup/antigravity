@@ -10,8 +10,8 @@ In this session, you will:
 - ✅ Install gcloud CLI
 - ✅ Enable required services
 - ✅ Generate a Gemini API Key
-- ✅ Use Gemini CLI to generate your portfolio
 - ✅ Open the project manually in Antigravity IDE
+- ✅ Use Antigravity to vibe code a game
 - ✅ Deploy to Cloud Run from Antigravity
 - ✅ Get a live public URL for your resume 🎉
 
@@ -248,10 +248,11 @@ Share your URL with classmates
 1. Create Cloud Project (UI)
 2. Enable APIs (UI)
 3. Generate Gemini API Key
-4. Generate Portfolio Code
+4. Generate Project Code
 5. Open Folder in Antigravity IDE
-6. Deploy to Cloud Run
-7. Get Live URL
+6. Vibe code with Antigravity
+7. Deploy to Cloud Run
+8. Get Live URL
 
 ---
 

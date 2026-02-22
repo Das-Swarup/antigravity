@@ -92,7 +92,7 @@ If the previous command shows `command not found`:
 
 ---
 
-# STEP 2 – Enable Required APIs (Using UI)
+# STEP 2 – Enable Required APIs
 
 Note: Some APIs might already be enabled and will show **Manage** instead 'Enable'.
 

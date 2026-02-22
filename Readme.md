@@ -7,6 +7,7 @@ Welcome to the hands-on workshop!
 In this session, you will:
 
 - ✅ Create a Google Cloud Project
+- ✅ Install gcloud CLI
 - ✅ Enable required services
 - ✅ Generate a Gemini API Key
 - ✅ Use Gemini CLI to generate your portfolio
@@ -31,11 +32,43 @@ Check Node installation:
 ```bash
 node -v
 ````
-
 If not installed:
 [https://nodejs.org](https://nodejs.org)
 
-And follow the steps mentioned as per your OS
+Check gcloud CLI installation:
+
+```bash
+gcloud help
+````
+If the previous command shows `command not found`:
+* Add Google Cloud SDK repo
+  ```bash
+  sudo apt update
+  ```
+  ```bash
+  sudo apt install apt-transport-https ca-certificates gnupg curl
+  ```
+  ```bash
+  curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+  ```
+  ```bash
+  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee /etc/apt/sources.list.d/google-cloud-sdk.list
+  ```
+* Install gcloud CLI
+   ```bash
+   sudo apt update
+   ```
+   ```bash
+   sudo apt install google-cloud-cli
+   ```
+* Verify Installation
+  ```bash
+  gcloud --version
+  ```
+* Initialize
+  ```bash
+  gcloud init
+  ```
 
 ---
 

@@ -83,7 +83,7 @@ If the previous command shows `command not found`:
 
 4. Enter:
 
-   * Project Name: `my-portfolio`
+   * Project Name: `neon-games`
    * Location: Leave default (if personal Gmail)
 
 5. Click **Create**
